@@ -1,0 +1,25 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.container-custom {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.btn-primary {
+  @apply px-4 py-2 bg-primary text-white rounded-lg hover:bg-purple-700 transition;
+}
+
+.btn-secondary {
+  @apply px-4 py-2 bg-secondary text-white rounded-lg hover:bg-pink-600 transition;
+}
+
+.product-card {
+  @apply bg-white rounded-lg shadow-md hover:shadow-lg transition overflow-hidden;
+}
